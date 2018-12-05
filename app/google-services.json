@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "478351205347",
+    "firebase_url": "https://karhabti-ed2ae.firebaseio.com",
+    "project_id": "karhabti-ed2ae",
+    "storage_bucket": "karhabti-ed2ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478351205347:android:43591dbed9e9a360",
+        "android_client_info": {
+          "package_name": "hazem.com.karhabti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478351205347-id1a7gp6gto0l562v5141s7utau4001l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hazem.com.karhabti",
+            "certificate_hash": "1446469c32f207a7ac28f19230b1e158ed178df4"
+          }
+        },
+        {
+          "client_id": "478351205347-n0u7hk59d0ok2cuaqmmjsh8q2gcb3v7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAilvFaP7wwWZ3iz6BmvKFw6FGphEjBws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478351205347-n0u7hk59d0ok2cuaqmmjsh8q2gcb3v7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
