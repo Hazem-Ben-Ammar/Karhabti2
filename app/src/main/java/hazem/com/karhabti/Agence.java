@@ -1,21 +1,27 @@
+package hazem.com.karhabti;
+
+
 import com.google.firebase.firestore.FirebaseFirestore;
+
 
 public class Agence
 {
+    private static final Object MainActivity = hazem.com.karhabti.MainActivity.class;
     FirebaseFirestore DB;
   private  int id,num;
-  private   String Adress;
+  private   String Adress,Nom;
   private   float longitude,latitude;
 
-    public Agence(int id, int num, String adress, float longitude, float latitude) {
-        this.DB = FirebaseFirestore.getInstance();
-        this.id = id;
+
+
+
+    public Agence(int num, String adress, String nom, float longitude, float latitude) {
         this.num = num;
         Adress = adress;
+        Nom = nom;
         this.longitude = longitude;
         this.latitude = latitude;
     }
-
     public int getId() {
         return id;
     }
@@ -55,5 +61,4 @@ public class Agence
     public void setLatitude(float latitude) {
         this.latitude = latitude;
     }
-
 }
